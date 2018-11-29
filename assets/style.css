@@ -10,7 +10,7 @@ hr{
     border-width: 1px;
     border-color: grey;
 }
-
+/* main image on about */
 .profile-img {
     float: left;
     padding: 10px;
@@ -19,8 +19,9 @@ hr{
 
 p {
     text-align: left;
+    padding: 5px;
 }
-
+/* color change for name */
 .navbar-light .navbar-brand{
     color: white;
 }
@@ -34,6 +35,7 @@ header{
     border-bottom: solid 2px rgb(76, 175, 175);
     overflow: hidden;
 }
+/* Part of nav links to other pages */
 a {
     background-color: rgb(76, 175, 175);
     text-decoration: none;
@@ -68,10 +70,25 @@ form{
     text-align: left;
     padding: 10px;
 }
-
+/* submit button for contact */
 .btn-primary {
     background-color: rgb(76, 175, 175);
     border-color: rgb(76, 175, 175);
+}
+/* overall image card */
+.card{
+    margin: 10px;
+    display: inline-block;
+}
+/* small card container for label of picture */
+.card-body{
+    padding: 5px;
+    background-color: rgb(76, 175, 175);
+}
+.card-text{
+    text-align: center;
+    font-weight: 700;
+    color: white;
 }
 
 #footer {
